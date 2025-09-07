@@ -1,0 +1,27 @@
+.client-opitions {
+  grid-column: 1/-1;
+  font-size: var(--font-size-40);
+  line-height: 1.7;
+}
+
+.client-wrapper {
+  display: flex;
+  overflow-x: auto;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+}
+
+.client-opition {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.client-opition:last-child {
+  margin-bottom: 0;
+}
+
+.star-rating {
+  color: var(--color-gold);
+  font-size: var(--font-size-16);
+}

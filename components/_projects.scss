@@ -1,0 +1,47 @@
+.project-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 7.4rem;
+  row-gap: 7.5rem;
+}
+
+.project-img {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+
+.project-data {
+  align-self: center;
+}
+
+.description-project {
+  margin-top: 1rem;
+  font-size: var(--font-size-16);
+  line-height: 1.5;
+}
+
+.project-links {
+  color: var(--color-darker-blue);
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-medium);
+  margin-top: 2.3rem;
+}
+
+.project-links:link,
+.project-links:visited {
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+}
+
+.project-links:hover,
+.project-links:active {
+  color: var(--color-blue);
+  transition: color var(--transition-timing);
+  text-decoration: wavy underline;
+}
+
+.project-links:active {
+  color: var(--color-blue);
+  transition: color var(--transition-timing);
+  text-decoration: wavy underline;
+}
