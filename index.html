@@ -1,0 +1,252 @@
+<!-- 
+? This is my personal portfolio website, created to showcase the projects I’m working on, highlight client feedback,
+? demonstrate my skills, and provide a way to connect with me.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Youssef Jamil</title>
+</head>
+
+<body>
+  <div class="container">
+    <video class="video_loop" autoplay muted loop>
+      <source src="./video-loop.mp4" type="video/mp4">
+    </video>
+    <header class="header">
+      <label for="menu" class="burger-menu">
+        <div class="burger-menu-bar"></div>
+        <div class="burger-menu-bar"></div>
+        <div class="burger-menu-bar"></div>
+      </label>
+      <input type="checkbox" id="menu" class="burger-menu-checkbox">
+      <nav class="navigation">
+        <ul class="navigation_list">
+          <li><a href="#bio" class="navigation_link navigation_bio">Bio</a></li>
+          <li><a href="#skills" class="navigation_link navigation_skills">Skills</a></li>
+          <li><a href="#media" class="navigation_link navigation_media">Media</a></li>
+          <li><a href="#projects" class="navigation_link navigation_projects">Projects</a></li>
+          <li><a href="#client-feedback" class="navigation_link navigation_client_feedback">Client Feedback</a></li>
+          <li><a href="#contact" class="navigation_link navigation_contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <h3 class="toggle__title">Switch Theme</h3>
+        <input id="toggle" class="toggle__checkbox" type="checkbox" />
+        <label class="toggle__label" for="toggle"></label>
+      </div>
+    </header>
+
+    <section id="bio" class="section bio">
+      <div class="bio__data">
+        <h1 class="bio__heading">Hi There, I’M A Passionate Software Engineer</h1>
+        <p class="bio__objective">
+          My name is <span class="bio-name">Youssef Jamil</span> and I am a passionate software engineer with a focus on
+          front-end development. I love creating beautiful and functional user interfaces that provide a great user
+          experience and a content creator who publish content on
+          <a class="bio__facebook" href="https://www.facebook.com/yousef.jami1">Facebook</a>,
+          <a class="bio__twitter" href="https://www.instagram.com/yousef.jami1/">Instagram</a>,
+          <a class="bio__linkedin" href="https://www.linkedin.com/in/youssef-jameel-abdullatif-ali/">LinkedIn</a> and
+          <a class="bio__youtube" href="https://www.youtube.com/@YoussefJameelAbdullatifAli">Youtube</a>.
+        </p>
+        <a class="bio__links say-hi-link" href="#contact">Say Hi</a>
+        <a class="bio__links find-out-link" target="_blank" href="./assets/YoussefJamilAbdullatif.pdf">
+          Download CV <span class="bio__arrow">🠯</span>
+        </a>
+      </div>
+      <div class="bio__pic-content">
+        <img class="bio__pic" src="./images/personal-pic.webp" loading="lazy" alt="image of Youssef Jamil">
+      </div>
+    </section>
+    <section id="skills" class="section skills section--with-bg">
+      <h2 class="h2-heading">SKILLS</h2>
+      <ul class="skills__list">
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/html5-brands-solid-full.svg" alt="logo of html">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">2 Years</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/css3-alt-brands-solid-full.svg" alt="logo of css">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">2 Years</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/square-js-brands-solid-full.svg" alt="logo of javascript">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">1 Year</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/cpp_logo.svg" alt="logo of c++">
+            <h2 class="skills__title">C++</h2>
+            <span class="skills__years">2 Years</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/java-brands-solid-full.svg" alt="logo of java">
+            <h2 class="skills__title">Java</h2>
+            <span class="skills__years">3 Years</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/python-brands-solid-full.svg" alt="logo of python">
+            <h2 class="skills__title">Python</h2>
+            <span class="skills__years">2 Years</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/react-brands-solid-full.svg" alt="logo of react">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">1 Year</span>
+          </div>
+        </li>
+        <li class="skills-item">
+          <div class="skill-card">
+            <img class="skills__logo" src="./images/brand/github-brands-solid-full.svg" alt="logo of git">
+            <h2 class="skills__title">Git & Github</h2>
+            <span class="skills__years">2 Years</span>
+          </div>
+        </li>
+      </ul>
+
+    </section>
+    <section id="media" class="media section">
+      <video class="media_video" poster="./images/Artboard 1.webp" controls>
+        <source src="./video/Youssef_jamel_inter.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="projects section " id="projects">
+      <h2 class="h2-heading">My Feature <br> Projects</h2>
+      <div class="project-main">
+        <img class="project-img" src="./images/Website-loean.webp" alt="The project image" width="100%" height="80%"
+          loading="lazy">
+        <div class="project-data">
+          <h3 class="h3-heading">Leon <br> Personal Portfolio Website</h3>
+          <p class="description-project">Leon is a modern and responsive personal portfolio website template. It was
+            developed using only HTML and CSS, making it
+            lightweight and easy to customize. The website includes multiple sections such as Services, Portfolio,
+            About, and
+            Contact, providing a complete professional showcase for freelancers, developers, and designers. Its clean
+            design and
+            mobile-friendly layout ensure a smooth browsing experience across all devices.</p>
+          <a class="project-links" target="_blank" href="https://leon-websites.netlify.app/" class="link-version">Go To
+            Website</a>
+        </div>
+        <div class="project-data">
+          <h3 class="h3-heading">Profile Card Component</h3>
+          <p class="description-project">Profile Card Component is a modern and responsive design pattern that showcases
+            user information in a visually appealing manner. It was developed using only HTML and CSS, making it
+            lightweight and easy to customize. The component includes sections for the user's photo, name, title, and a
+            brief bio, providing a complete professional showcase for freelancers, developers, and designers. Its clean
+            design and mobile-friendly layout ensure a smooth browsing experience across all devices.</p>
+          <a class="project-links" target="_blank" href="https://profileardcomponent.netlify.app/"
+            class="link-version">Go To
+            Website</a>
+        </div>
+        <img class="project-img" src="./images/Screenshot 2025-08-19 233240.png" alt="The project image" loading="lazy">
+      </div>
+
+
+    </section>
+
+    <section id="client-feedback" class="section clients section--with-bg">
+      <h2 class="h2-heading">What My <br>
+        Clients Says.</h2>
+      <div class="client-opitions">
+        <div class="client-wrapper">
+          <p class="client-opition">
+            <span class="star-rating">⭐️⭐️⭐️⭐️⭐️</span> <br>
+            Youssef is an excellent developer—professional, reliable, and detail-oriented. He delivered high-quality
+            work on time
+            and made the whole process smooth and easy. Highly recommended!
+          </p>
+          <p class="client-opition">
+            <span class="star-rating">⭐️⭐️⭐️⭐️⭐️</span> <br>
+            Working with Yousef Jamil was a great experience. He is professional, creative, and always delivers on time.
+            The quality
+            of his work truly speaks for itself.
+          </p>
+          <p class="client-opition">
+            <span class="star-rating">⭐️⭐️⭐️⭐️⭐️</span> <br>
+            I highly recommend Yousef Jamil. He is reliable, talented, and understands exactly what the client needs. I
+            will
+            definitely work with him again.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Me Component-->
+    <section class="section contact" id="contact">
+      <div class="contacts-description">
+        <p class="contact-description">Feel free to reach out for collaborations, projects, or any inquiries. I’ll get
+          back to you as soon as possible.</p>
+        <a class="contact-email" href="mailto:youssefjameabdullatif@gmail.com">youssefjameabdullatif@gmail.com</a>
+        <div class="contact-socials">
+          <a target="_blank" href="https://www.youtube.com/@YoussefJameelAbdullatifAli" class="contact-social">
+            <img src="./images/brand/YouTube.svg" alt="">
+          </a>
+          <a target="_blank" href="https://www.facebook.com/yousef.jami1" class="contact-social">
+            <img src="./images/brand/Facebook.svg" alt="">
+          </a><a target="_blank" href="https://www.instagram.com/yousef.jami1/" class="contact-social">
+            <img src="./images/brand/Instagram.svg" alt="">
+          </a>
+          <a target="_blank" href="https://github.com/youssef-jamil" class="contact-social">
+            <img src="./images/brand/GitHub.svg" alt="">
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/youssef-jameel-abdullatif-ali/" class="contact-social">
+            <img src="./images/brand/LinkedIn.svg" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="contact__formContent">
+        <h2 class="h2-heading">
+          Let’s Work <br />
+          Together!
+        </h2>
+        <form action="results.html">
+          <div class="contact__inputs">
+            <input type="text" class="contact__input" name="name" placeholder="Full Name" required />
+            <!-- <input type="email" class="contact__input" placeholder="Email" required /> -->
+            <input type="tel" class="contact__input" placeholder="Phone No." name="tel" required
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+          </div>
+          <textarea class="contact__input contact__textarea" name="message" placeholder="Your Message" rows="1"
+            required></textarea>
+          <input type="submit" class="contact__button" value="Send Message" />
+        </form>
+      </div>
+    </section>
+
+    <section>
+      <footer class="footer">
+        <p>© 2025 <span>Youssef</span> All Rights Reserved</p>
+      </footer>
+    </section>
+</body>
+
+</html>
