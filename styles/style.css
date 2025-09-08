@@ -790,6 +790,10 @@ html:has(.toggle__checkbox:checked) {
     justify-items: center;
   }
 
+  .projects-data:nth-of-type(2) {
+    order: 1;
+  }
+
   .client-opitions {
     font-size: var(--font-size-22);
   }
@@ -802,10 +806,8 @@ html:has(.toggle__checkbox:checked) {
     order: -1;
   }
 
-  .project-data:nth-child(2) {
-    order: 1;
-  }
 }
+
 
 @media(max-width:500px) {
   .bio__pic {
